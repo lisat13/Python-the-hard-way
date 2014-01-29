@@ -1,0 +1,12 @@
+﻿Linux definisjoner
+
+mkdir - lager en ny mappe 
+cd - åpner gitt mappe eller hopper opp et hakk i mappestrukturen
+ls - viser en liste over filer og mapper
+ls ­l - viser det samme som ls, bare med en utvidet oversikt over rettigheter og eiere
+ls ­la - viser det samme som ls -l, men også skjulte filer og mapper
+pwd - «print working directory» som viser gjeldene mappe
+forklar “pipes and redirection” -  man bruker dette til å sende videre en kommando eller resultatet av en kommando til en ny fil eller kommano
+grep -finner et gitt ord i en gitt fil, og ramser opp 
+cat - viser innhold i en tekstfil
+less - åpner en tekstfil
