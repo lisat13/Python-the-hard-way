@@ -1,0 +1,23 @@
+Et regulært uttrykk (regular expression)
+Et regulært utrykk er en spesiell sekvens av karakterer som hjelper deg å matche eller finne andre strenger eller sett med strenger og bruker en spesialisert syntax holdt i et mønster.
+“Match funksjonen”
+Denne funskjonen prøver å matche RE mønster til string med valgfrie flagg.
+Syntaxen er: re.match(pattern, string, flags=0)
+Pattern: Det vanlige utrykket som skal matches.
+String: Dette er strengen, det er det som søkes på for å matche mønsteret på begynnelsen av strengen.
+Flags: Du kan spesifisere forskjellige flagg ved å brukte Bitwise OR (|).
+“Search funksjonen”
+Denne funskjonen søker etter den første hendelsen av et RE mønster innen string med valgfrie flag.
+Syntaxen er: re.search(pattern, string, flags=0)
+Pattern: Det vanlige utrykket som skal matches.
+String: Dette er strengen, det er det som søkes på for å matche mønsteret på begynnelsen av strengen.
+Flags: Du kan spesifisere forskjellige flagg ved å brukte Bitwise OR (|).
+Import ­ hva betyr dette i et Python program?
+Du kan bruke hvilket som helst python source file som en module ved å kjøre en import kommando i en annen python source fil.
+Syntaxen er: import module1[, module2[,...moduleN]
+“Skript”­språk
+Skriptspråk eller skriptprogrammeringsspråk er en type programmeringsspråk som tolkes og utføres av seperate programmer. Formelt skiller man mellom tolkede språk (Skriptspråk) og kompilerte språk. Forskjellen er at kildekoden til et skript leses som en del av utførelsen, enten rett før eller under kjøring.
+Perl
+Perl er den eldreutgaven av Python. Som brukes av Linux administratorer til å utføre oppgaver på f.eks servere.
+Bash
+Bash er et Unix shell skrevet av Brian Fox for GNU prosjektet som en gratis software erstatter for Bourne Shell. Det ble sluppet i 1989, og har blitt brukt som shell’et for GNU operativsystemet.
