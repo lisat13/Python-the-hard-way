@@ -1,9 +1,79 @@
-Operator precedence:
-This deiceides which operator has precedence from the lowest (least binding) to the highest (most binding).ex: the * has higher precedence than + in python. Operators in the same box have te same precedence, Unless the syntax is explicity given, operators are binary. Operators in the same box group from left to right. Basically which one it chooses to do first.
+_Operator priority:_
 
-One's complement:
-It means that you reverse all the 1 aand 0 in a binary number. 111 and 000 are both 0 only negative and positive. (equals)
+As seen in the link given to this definition we can see that the priority
+or precedence is shown from lowest to highest. ex. *,/,//,% is higher then +,-. This means
+that if you write 2 + 3 * 4 the answer will be 14 and not 20 because * has a higer precedence than + in python.
+Operators with the same precedence is listed in the same cell in the table.
 
 
-Two's complement
-The same as One's complement, only without the zero (-0) To get the Twoæs complement you invert and add 1.
+
+
+_One's complement:_
+
+Basically what this means is that you reverse all the 1's and 0's in a binary number.
+111 and 000 is both 0 just negative and posetive (They are both the same, no difference).
+
+
+
+Binary Decimal
+011 3
+010 2
+001 1
+000 0
+111 -0
+110 -1
+101 -2
+100 -3
+
+3 = 011 in binary (with 3 bits) the one's complement would be 100 wich would equal -3 in decimal.
+you could do calculations on it aswell. Ex. 2 - 1 = 1 (decimal inside parentheses)
+
+  010 (+2)
+- 001 (+1)
+  ---
+  110 (-1)
++ 010 (+2)
+=1000 (0)
+= 001 (+1) Final answer since we get the carry.
+
+
+
+
+_Two's complement:_
+
+This is the same as one's complement, but without the negative zero (-0).
+To get the Two's complement you invert and add 1. example with -3 below
+
+ 011 Normal
+ ---
+ 100 Reversed
++ 1 Adding 1
+=101 The Negative 3
+
+So the list as I did for One's complement would look like this for Two's complement.
+
+Binary Decimal
+011 3
+010 2
+001 1
+000 0
+111 -1
+110 -2
+101 -3
+
+To do the same subtraction as before (2 - 1 = 1):
+
+  010 (+2)
+- 001 (+1)
+  ---
+  110 (-1)
++ 1 Adding 1
+  ---
+  111 (-1)
++ 010 (+2)
+=1001 In Two's complement we don't use the carry. We simply cut if off
+
+= 001 Correct answer
+
+""The two's-complement system has the advantage of not requiring that the addition and subtraction circuitry examine the signs of the operands to determine whether to add or subtract. This property makes the system both simpler to implement and capable of easily handling higher precision arithmetic. Also, zero has only a single representation, obviating the subtleties associated with negative zero, which exists in ones'-complement systems.""
+--Wikipedia
