@@ -1,0 +1,26 @@
+API:
+Application programming interface, API is a set of routines, protocols and tools for building software applications. It specifies how it should interact with eachother.
+
+IDE:
+Integrated development environment. It usually got a text editor, a compiler and a debugger.
+
+ps:
+Process status. Will show info about the current process running and the PID number. You can use it to find a specific process.
+
+top:
+Used to monitor processor activity in real tie.
+
+df:
+Disk free. Will tell you how much disk space you have used and how much you have free.
+
+kill:
+Used to send a signal to a process, default is terminate wich will "kill" the process.
+
+netstat:
+Network statistics. Used to statisticly display the connections on the network (in and out).
+
+ifconfig:
+A system administration utility in unix-like operating systems to configure, control and query TCP/IP network interface parameters from a command line interface.
+
+who:
+Will display who is using the system.
