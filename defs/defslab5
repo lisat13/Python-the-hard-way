@@ -1,0 +1,18 @@
+Viktigste prosesstilstander i Linux OS:
+R = running or runable, altså den kjører
+D = uninteruptible sleep, sover og kan ikke vekkes
+S = interuptable sleep, sover og kan vekkes
+Z = defunct zombie, blir ikke avbrutt selvom parent blir avbrutt
+T = stopped
+
+Kommandoer:
+python <filnavn>.py = kjører python filen i python
+javac <filnavn>.java = kompilerer javakoden i javafilen og lager en .class
+java <filnavn>.class = kjører java bytecode i java
+gcc -o <filnavn> <filnavn>.c = kompiler c og c++ i GNU project compiler
+sleep 100 & = legger program i 100 sekunders søvn
+cat/proc/cpuinfo = informasjon om cpu
+
+Multiprogrammering
+Når flere program kjører "samtidig" på en datamaskin.
+Når det bare er en prosessor kan kun ett program kjøres om gangen, OSet kjører deler av programmene om hverandre slik at det bruker får en oppfatning av at flere programmer kjører samtidig
