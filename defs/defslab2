@@ -1,0 +1,9 @@
+Operator precedence:
+This deiceides which operator has precedence from the lowest (least binding) to the highest (most binding).ex: the * has higher precedence than + in python. Operators in the same box have te same precedence, Unless the syntax is explicity given, operators are binary. Operators in the same box group from left to right. Basically which one it chooses to do first.
+
+One's complement:
+It means that you reverse all the 1 aand 0 in a binary number. 111 and 000 are both 0 only negative and positive. (equals)
+
+
+Two's complement
+The same as One's complement, only without the zero (-0) To get the Twoæs complement you invert and add 1.
