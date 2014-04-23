@@ -1,4 +1,15 @@
-
+# # -*- coding: latin-1 -*- # 
+# IS-105 LAB4 
+# 
+# lab4.py - kildekode som inneholder studentenes løsning. 
+#
+#
+import sys
+import os
+import subprocess
+import re
+import psutil 
+# Kan installeres med "pip2.7 install psutil"
 
 # Skriv inn fullt navn på gruppemedlemene (erstatte '-' med navn slikt 'Kari Trå')
 gruppe = { 'student1': 'Marte Holen', \
